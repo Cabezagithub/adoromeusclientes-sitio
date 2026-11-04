@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content="Sistema SaaS de fidelização para negócios. Seu app com sua marca no celular dos seus clientes. Carimbos, pontos e prêmios que fazem voltar."/>
+  <title>Adoro Meus Clientes — Programa de fidelização para cafeterias, comércios e bares</title>
+  <!-- SEO: idiomas y vista previa al compartir -->
+  <link rel="canonical" href="https://adoromeusclientes.com.br/"/>
+  <link rel="alternate" hreflang="pt-BR" href="https://adoromeusclientes.com.br/"/>
+  <link rel="alternate" hreflang="es" href="https://amomisclientes.com/"/>
+  <link rel="alternate" hreflang="x-default" href="https://amomisclientes.com/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Adoro Meus Clientes"/>
+  <meta property="og:url" content="https://adoromeusclientes.com.br/"/>
+  <meta property="og:title" content="Adoro Meus Clientes — Programa de fidelização para cafeterias, comércios e bares"/>
+  <meta property="og:description" content="Sistema SaaS de fidelização para negócios. Seu app com sua marca no celular dos seus clientes. Carimbos, pontos e prêmios que fazem voltar."/>
+  <meta property="og:image" content="https://adoromeusclientes.com.br/img/og-adoromeusclientes.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:locale" content="pt_BR"/>
+  <meta property="og:locale:alternate" content="es_LA"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Adoro Meus Clientes — Programa de fidelização para cafeterias, comércios e bares"/>
+  <meta name="twitter:description" content="Sistema SaaS de fidelização para negócios. Seu app com sua marca no celular dos seus clientes. Carimbos, pontos e prêmios que fazem voltar."/>
+  <meta name="twitter:image" content="https://adoromeusclientes.com.br/img/og-adoromeusclientes.jpg"/>
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Organization", "name": "Adoro Meus Clientes", "url": "https://adoromeusclientes.com.br/", "logo": "https://adoromeusclientes.com.br/img/logo_3_transparente.png", "parentOrganization": {"@type": "Organization", "name": "Pro Business One"}, "contactPoint": {"@type": "ContactPoint", "email": "contato@adoromeusclientes.com.br", "contactType": "sales", "availableLanguage": ["pt"]}}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/theme.css?v=20261104"/>
+  <link rel="stylesheet" href="css/styles.css?v=20261104"/>
+  <link rel="stylesheet" href="css/chat.css?v=20261013b"/>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png"/>
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json"/>
+  <meta name="theme-color" content="#1769AA"/>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VG951C6SQ8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VG951C6SQ8');
+  </script>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="/">
+      <img src="img/logo_3_transparente.png" alt="Adoro Meus Clientes" height="40"/>
+      Adoro Meus Clientes
+    </a>
+    <nav class="nav__links">
+      <a href="#como-funciona" data-i18n="nav.features">Como funciona</a>
+      <a href="#precos" data-i18n="nav.pricing">Planos</a>
+      <a href="#faq" data-i18n="nav.faq">Perguntas</a>
+      <a href="#contato" data-i18n="nav.contact">Contato</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="btn-secondary" href="#contato" data-i18n="nav.contact">Contato</a>
+      <a class="btn-primary" href="#precos" data-i18n="hero.ctaPrimary">Ver planos</a>
+    </div>
+    <button class="nav__burger" id="nav-burger" aria-expanded="false" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__mobile" id="nav-mobile" hidden>
+    <a href="#como-funciona" data-i18n="nav.features">Como funciona</a>
+    <a href="#precos" data-i18n="nav.pricing">Planos</a>
+    <a href="#faq" data-i18n="nav.faq">Perguntas</a>
+    <a href="#contato" data-i18n="nav.contact">Contato</a>
+    <a class="btn-primary btn-primary nav__mobile btn-primary" href="#precos" data-i18n="hero.ctaPrimary">Ver planos</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" style="padding-top:calc(64px + 72px)">
+  <div class="container">
+    <div class="hero__inner">
+      <div class="hero__text">
+        <div class="hero__badge" data-i18n="hero.eyebrow">🏆 Sistema de fidelização SaaS para negócios</div>
+        <h1 class="hero__h">
+          <span data-i18n="hero.h1a">Seu negócio no</span><br>
+          <span data-i18n="hero.h1b">celular dos seus</span><br>
+          <span class="hero__accent" data-i18n="hero.h1c">clientes</span>
+        </h1>
+        <p class="hero__sub" data-i18n="hero.sub">Com seu ícone. Com suas cores. Com sua marca. Sem App Store, sem Play Store. Carimbos, pontos e prêmios que fazem voltar.</p>
+        <div class="hero__ctas">
+          <a class="btn-primary lg" href="#precos" data-i18n="hero.ctaPrimary">Ver planos</a>
+          <a class="btn-secondary lg" href="#contato" data-i18n="hero.ctaSecondary">Falar com vendas</a>
+        </div>
+        <p class="hero__note" data-i18n="hero.badge">Sem fidelidade · Cancele quando quiser</p>
+      </div>
+      <div class="hero__visual">
+        <div class="samsung-mockup">
+          <svg class="samsung-frame" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <clipPath id="screen-clip">
+                <rect x="12" y="12" width="366" height="820" rx="38" ry="38"/>
+              </clipPath>
+            </defs>
+            <rect x="2" y="2" width="386" height="840" rx="46" ry="46" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="3"/>
+            <rect x="12" y="12" width="366" height="820" rx="38" ry="38" fill="#000"/>
+            <circle cx="195" cy="30" r="6" fill="#111"/>
+            <rect x="385" y="180" width="5" height="60" rx="2" fill="#2a2a2a"/>
+            <rect x="0" y="160" width="5" height="40" rx="2" fill="#2a2a2a"/>
+            <rect x="0" y="210" width="5" height="40" rx="2" fill="#2a2a2a"/>
+            <image href="/imagenes/bocatta_screenshot.jpg" x="12" y="12" width="366" height="820" clip-path="url(#screen-clip)" preserveAspectRatio="xMidYMin slice"/>
+            <rect x="12" y="12" width="366" height="820" rx="38" ry="38" fill="none" stroke="#222" stroke-width="1"/>
+          </svg>
+          <div class="phone__label" data-i18n="hero.phoneLabel">Seu ícone · Sua marca · O celular deles</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="stats-bar__inner">
+      <div class="stat">
+        <div class="stat__n" data-i18n="social_proof.stat1_num">40%</div>
+        <div class="stat__l" data-i18n="social_proof.stat1_label">mais visitas com programa de fidelização ativo</div>
+      </div>
+      <div class="stat">
+        <div class="stat__n" data-i18n="social_proof.stat2_num">5x</div>
+        <div class="stat__l" data-i18n="social_proof.stat2_label">mais barato reter do que conquistar um novo cliente</div>
+      </div>
+      <div class="stat">
+        <div class="stat__n" data-i18n="social_proof.stat3_num">84%</div>
+        <div class="stat__l" data-i18n="social_proof.stat3_label">dos consumidores escolhe marcas que os recompensam</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- DIFERENCIADOR -->
+<section class="diff" id="diferenciador">
+  <div class="container">
+    <div class="eyebrow" data-i18n="eyebrow.diff">O diferencial</div>
+    <h2 class="section-h">Não é um app genérico.<br>É o <span style="color:var(--brand)">SEU app.</span></h2>
+    <p class="section-sub" data-i18n="differentiator.sub">A maioria dos sistemas coloca seu negócio em um app compartilhado onde você convive com a concorrência. Adoro Meus Clientes faz algo diferente.</p>
+
+    <div class="diff__points">
+      <div class="diff__point">
+        <div class="diff__point-ico">📱</div>
+        <h3 data-i18n="differentiator.point1_title">Seu ícone na tela inicial deles</h3>
+        <p data-i18n="differentiator.point1_text">Seus clientes instalam seu app pelo navegador, sem passar pelas lojas. Seu logo, não o de outra empresa.</p>
+      </div>
+      <div class="diff__point">
+        <div class="diff__point-ico">🎨</div>
+        <h3 data-i18n="differentiator.point2_title">Suas cores e marca em cada tela</h3>
+        <p data-i18n="differentiator.point2_text">Você configura logo, cores e imagem de fundo. Seus clientes vivem a sua marca, não um app branco genérico.</p>
+      </div>
+      <div class="diff__point">
+        <div class="diff__point-ico">⚡</div>
+        <h3 data-i18n="differentiator.point3_title">Sem App Store. Sem Play Store.</h3>
+        <p data-i18n="differentiator.point3_text">Tecnologia PWA: instalação em 2 cliques pelo navegador. Zero fricção, zero abandono.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section class="how" id="como-funciona">
+  <div class="container">
+    <div class="eyebrow" data-i18n="eyebrow.how">Simples e rápido</div>
+    <h2 class="section-h" style="color:#fff" data-i18n="how.title">Como funciona em 3 passos</h2>
+    <div class="how__grid">
+      <div class="how__step">
+        <img class="how__step-img" src="/imagenes/carton_configuracion.jpg" data-lightbox alt="Painel de configuração do Adoro Meus Clientes"/>
+        <div class="how__step-body">
+          <div class="how__step-num">1</div>
+          <h3 data-i18n="how.step1_title">Você configura seu negócio</h3>
+          <p data-i18n="how.step1_text">Você carrega seu logo, cores e regras de carimbos ou pontos. Em menos de uma hora seu app está pronto.</p>
+        </div>
+      </div>
+      <div class="how__step">
+        <img class="how__step-img" src="/imagenes/sello_escanear.jpg" data-lightbox alt="QR para registrar sello"/>
+        <div class="how__step-body">
+          <div class="how__step-num">2</div>
+          <h3 data-i18n="how.step2_title">Seu cliente escaneia o QR</h3>
+          <p data-i18n="how.step2_text">Você mostra o QR no caixa pelo seu celular. O cliente escaneia e instala seu app na hora.</p>
+        </div>
+      </div>
+      <div class="how__step">
+        <img class="how__step-img" src="/imagenes/carton_en_movil.jpg" data-lightbox alt="Cliente com o cartão de carimbos no celular"/>
+        <div class="how__step-body">
+          <div class="how__step-num">3</div>
+          <h3 data-i18n="how.step3_title">Acumula, resgata e volta</h3>
+          <p data-i18n="how.step3_text">O sistema trabalha sozinho. Seus clientes acumulam, recebem notificações e voltam pelos prêmios.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FUNCIONALIDADES -->
+<section class="features" id="funcionalidades">
+  <div class="container">
+    <div class="eyebrow" data-i18n="eyebrow.features">Funcionalidades</div>
+    <h2 class="section-h" data-i18n="features.title">Tudo o que você precisa para fidelizar</h2>
+    <p class="section-sub" data-i18n="features.sub">Ferramentas pensadas para comércios reais, sem complicação técnica.</p>
+    <div class="feat-showcase">
+      <!-- Mockup de celular: izquierda -->
+      <div class="feat-phone">
+        <div class="feat-phone__mockup">
+          <svg class="feat-phone__frame" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <clipPath id="feat-screen-clip">
+                <rect x="12" y="12" width="366" height="820" rx="38" ry="38"/>
+              </clipPath>
+            </defs>
+            <rect x="2" y="2" width="386" height="840" rx="46" ry="46" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="3"/>
+            <rect x="12" y="12" width="366" height="820" rx="38" ry="38" fill="#000"/>
+            <circle cx="195" cy="30" r="6" fill="#111"/>
+            <rect x="385" y="180" width="5" height="60" rx="2" fill="#2a2a2a"/>
+            <rect x="0" y="160" width="5" height="40" rx="2" fill="#2a2a2a"/>
+            <rect x="0" y="210" width="5" height="40" rx="2" fill="#2a2a2a"/>
+            <image id="feat-phone-img" href="/imagenes/puntos.jpg" x="12" y="12" width="366" height="820" clip-path="url(#feat-screen-clip)" preserveAspectRatio="xMidYMin slice"/>
+            <rect x="12" y="12" width="366" height="820" rx="38" ry="38" fill="none" stroke="#222" stroke-width="1"/>
+          </svg>
+        </div>
+      </div>
+      <!-- Lista de features: derecha -->
+      <div class="feat-list">
+        <button class="feat-item active" data-feat="0">
+          <span class="feat-item__ico">⭐</span>
+          <div class="feat-item__info">
+            <div class="feat-item__title" data-i18n="features.f2Title">Pontos e prêmios</div>
+            <div class="feat-item__text" data-i18n="features.f2Text">A cada compra o cliente soma pontos trocáveis por prêmios que você define.</div>
+          </div>
+        </button>
+        <button class="feat-item" data-feat="1">
+          <span class="feat-item__ico">🎫</span>
+          <div class="feat-item__info">
+            <div class="feat-item__title" data-i18n="features.f1Title">Selos digitais</div>
+            <div class="feat-item__text" data-i18n="features.f1Text">O clássico cartão fidelidade em versão digital. Você define as regras.</div>
+          </div>
+        </button>
+        <button class="feat-item" data-feat="2">
+          <span class="feat-item__ico">🔔</span>
+          <div class="feat-item__info">
+            <div class="feat-item__title" data-i18n="features.f3Title">Notificações push</div>
+            <div class="feat-item__text" data-i18n="features.f3Text">Envie promoções direto no celular. Sem e-mail, sem WhatsApp em massa.</div>
+          </div>
+        </button>
+        <button class="feat-item" data-feat="3">
+          <span class="feat-item__ico">📲</span>
+          <div class="feat-item__info">
+            <div class="feat-item__title" data-i18n="features.f4Title">QR pelo seu celular</div>
+            <div class="feat-item__text" data-i18n="features.f4Text">Você gera o QR pelo seu smartphone. Sem hardware extra, sem tablet no caixa.</div>
+          </div>
+        </button>
+        <button class="feat-item" data-feat="4">
+          <span class="feat-item__ico">📍</span>
+          <div class="feat-item__info">
+            <div class="feat-item__title" data-i18n="features.f5Title">Mapa de unidades</div>
+            <div class="feat-item__text" data-i18n="features.f5Text">O cliente vê qual unidade fica mais perto e pode entrar em contato pelo WhatsApp.</div>
+          </div>
+        </button>
+        <button class="feat-item" data-feat="5">
+          <span class="feat-item__ico">📊</span>
+          <div class="feat-item__info">
+            <div class="feat-item__title" data-i18n="features.f6Title">Painel pelo celular</div>
+            <div class="feat-item__text" data-i18n="features.f6Text">Você administra tudo pelo seu telefone. Estatísticas, QR, notificações.</div>
+          </div>
+        </button>
+        <button class="feat-item" data-feat="6">
+          <span class="feat-item__ico">🌍</span>
+          <div class="feat-item__info">
+            <div class="feat-item__title" data-i18n="features.f7Title">Multiidioma</div>
+            <div class="feat-item__text" data-i18n="features.f7Text">Espanhol, inglês e português. Ideal para regiões turísticas e internacionais.</div>
+          </div>
+        </button>
+        <button class="feat-item" data-feat="7">
+          <span class="feat-item__ico">🔌</span>
+          <div class="feat-item__info">
+            <div class="feat-item__title" data-i18n="features.f8Title">API de integração com sistemas</div>
+            <div class="feat-item__text" data-i18n="features.f8Text">Conecte com seu PDV ou ERP. Os pontos são somados automaticamente.</div>
+          </div>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CASOS DE USO -->
+<section class="usecases" id="rubros">
+  <div class="container">
+    <div class="eyebrow" data-i18n="eyebrow.usecases">Para o seu negócio</div>
+    <h2 class="section-h" data-i18n="usecases.title">Funciona para o seu tipo de negócio</h2>
+    <div class="usecases__grid">
+      <div class="usecase">
+        <img class="usecase__img" src="/imagenes/cafeteria.jpg" alt="Cafeterias"/>
+        <div class="usecase__overlay"><div class="usecase__ico">☕</div><h3 data-i18n="usecases.cafe_title">Cafeterias</h3><p data-i18n="usecases.cafe_text">Cartão digital de carimbos. O 8º café é de graça. Seus clientes voltam para completar.</p></div>
+      </div>
+      <div class="usecase">
+        <img class="usecase__img" src="/imagenes/ferreteria.jpg" alt="Lojas de ferragens e varejo"/>
+        <div class="usecase__overlay"><div class="usecase__ico">🔧</div><h3 data-i18n="usecases.retail_title">Lojas e varejo</h3><p data-i18n="usecases.retail_text">Pontos por compra resgatáveis por descontos ou produtos.</p></div>
+      </div>
+      <div class="usecase">
+        <img class="usecase__img" src="/imagenes/pizzeria.jpg" alt="Bares e gastronomia"/>
+        <div class="usecase__overlay"><div class="usecase__ico">🍺</div><h3 data-i18n="usecases.bar_title">Bares e gastronomia</h3><p data-i18n="usecases.bar_text">Carimbos e pontos combinados. Duas ferramentas para fidelizar.</p></div>
+      </div>
+      <div class="usecase">
+        <img class="usecase__img" src="/imagenes/estacion_de_carga.jpg" alt="Estação de recarga de veículos elétricos"/>
+        <div class="usecase__overlay"><div class="usecase__ico">✨</div><h3 data-i18n="usecases.other_title">E muito mais</h3><p data-i18n="usecases.other_text">Cabeleireiros · Academias · Veterinárias · Lavanderias · Postos de gasolina · Supermercados</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- PRECIOS -->
+<section class="pricing" id="precos">
+  <div class="container">
+    <div class="eyebrow" style="display:block;text-align:center" data-i18n="eyebrow.pricing">Transparente</div>
+    <h2 class="section-h section-h--center" data-i18n="pricing.title">Planos simples e transparentes</h2>
+    <p class="section-sub section-sub--center" data-i18n="pricing.sub">Sem custos ocultos. Sem fidelidade. Cancele quando quiser.</p>
+    <div class="pricing__grid">
+      <!-- PLAN BASE -->
+      <div class="plan">
+        <div class="plan__name" data-i18n="pricing.base_name">Base</div>
+        <div class="plan__price">
+          <span class="plan__cur" data-i18n="pricing.currency">R$</span>
+          <span class="plan__amt" data-i18n="pricing.base_price">78,90</span>
+          <span class="plan__per">/<span data-i18n="pricing.monthly">mês</span></span>
+        </div>
+        <p class="plan__desc" data-i18n="pricing.base_desc">Para negócios que começam com fidelização simples.</p>
+        <ul class="plan__list">
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.base_f1">1 unidade</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.base_f2">Carimbos ou pontos</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.base_f3">Até 3 usuários do painel</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.base_f4">Até 8 campanhas por mês</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.base_f5">Relatórios básicos</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.base_f6">Suporte padrão</span></li>
+        </ul>
+        <a class="btn-outline" href="#contato" data-i18n="pricing.base_cta">Começar com Base</a>
+      </div>
+      <!-- PLAN ESTÁNDAR -->
+      <div class="plan plan--featured">
+        <div class="plan__badge" data-i18n="pricing.popular_badge">Mais popular</div>
+        <div class="plan__name" data-i18n="pricing.std_name">Padrão</div>
+        <div class="plan__price">
+          <span class="plan__cur" data-i18n="pricing.currency">R$</span>
+          <span class="plan__amt" data-i18n="pricing.std_price">99,95</span>
+          <span class="plan__per">/<span data-i18n="pricing.monthly">mês</span></span>
+        </div>
+        <p class="plan__desc" data-i18n="pricing.std_desc">Para negócios em crescimento que querem mais ferramentas.</p>
+        <ul class="plan__list">
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.std_f1">Até 5 unidades</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.std_f2">Carimbos e pontos simultâneos</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.std_f3">Até 10 usuários do painel</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.std_f4">Até 30 campanhas por mês</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.std_f5">Automatizações</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.std_f6">Relatórios avançados</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.std_f7">Suporte prioritário</span></li>
+        </ul>
+        <a class="btn-primary btn--full" style="width:100%;justify-content:center;display:flex" href="#contato" data-i18n="pricing.std_cta">Começar com Padrão</a>
+      </div>
+      <!-- PLAN PRO -->
+      <div class="plan">
+        <div class="plan__name" data-i18n="pricing.pro_name">Pro</div>
+        <div class="plan__price">
+          <span class="plan__cur" data-i18n="pricing.currency">R$</span>
+          <span class="plan__amt" data-i18n="pricing.pro_price">119,95</span>
+          <span class="plan__per">/<span data-i18n="pricing.monthly">mês</span></span>
+        </div>
+        <p class="plan__desc" data-i18n="pricing.pro_desc">Para negócios que querem integrar com o seu sistema.</p>
+        <ul class="plan__list">
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.pro_f1">Tudo do Padrão</span></li>
+          <li><span class="checkmark">✓</span><span data-i18n="pricing.pro_f2">API / Webhook de integração</span></li>
+        </ul>
+        <p class="plan__nudge" data-i18n="pricing.pro_nudge" style="font-size:13px;color:var(--brand);font-weight:600;margin-bottom:16px">Apenas R$ 20 a mais que o Padrão</p>
+        <a class="btn-outline" href="#contato" data-i18n="pricing.pro_cta">Começar com Pro</a>
+      </div>
+    </div>
+    <div class="pricing__note">
+      <p data-i18n="pricing.payment_text">Cartão de crédito, débito ou Pix, via Stripe.</p>
+      <p data-i18n="pricing.cancel_text">Cancele a qualquer momento. O serviço continua ativo até o final do período pago.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="eyebrow" style="display:block;text-align:center" data-i18n="eyebrow.faq">Dúvidas</div>
+    <h2 class="section-h section-h--center" data-i18n="faq.title">Perguntas frequentes</h2>
+    <div class="faq__list">
+      <details class="faq__item"><summary data-i18n="faq.q1">Meus clientes precisam baixar um app?</summary><p data-i18n="faq.a1">Não. Adoro Meus Clientes usa tecnologia PWA: seus clientes instalam o app direto do navegador em 2 cliques, sem App Store nem Play Store.</p></details>
+      <details class="faq__item"><summary data-i18n="faq.q2">O app tem minha logo e minhas cores?</summary><p data-i18n="faq.a2">Sim. Você configura toda sua identidade visual: logo, ícone no celular, cores do app. Seus clientes veem sua marca, não a nossa.</p></details>
+      <details class="faq__item"><summary data-i18n="faq.q3">Preciso de hardware especial ou tablet no caixa?</summary><p data-i18n="faq.a3">Não. Você gera o QR do seu próprio celular ou do seu funcionário. Sem investimento em hardware.</p></details>
+      <details class="faq__item"><summary data-i18n="faq.q4">Posso gerenciar várias unidades?</summary><p data-i18n="faq.a4">Sim. O plano Base inclui 1 unidade, o Padrão e Pro até 5. Cada unidade tem endereço e geolocalização no mapa. Se você tem mais de 5 unidades, fale com a gente e montamos um plano sob medida.</p></details>
+      <details class="faq__item"><summary data-i18n="faq.q5">Como é o pagamento?</summary><p data-i18n="faq.a5">Via Stripe, com cartão de crédito, débito ou Pix. Pagamento mensal, sem fidelidade.</p></details>
+      <details class="faq__item"><summary data-i18n="faq.q6">Posso cancelar quando quiser?</summary><p data-i18n="faq.a6">Sim. Cancele quando quiser pelo seu painel. O serviço continua ativo até o final do período pago.</p></details>
+      <details class="faq__item"><summary data-i18n="faq.q7">O que acontece com meus dados se eu cancelar?</summary><p data-i18n="faq.a7">Seus dados e dos seus clientes ficam guardados por 90 dias. Nunca compartilhamos dados de negócios ou clientes com terceiros.</p></details>
+      <details class="faq__item"><summary data-i18n="faq.q8">Posso integrar com meu sistema de faturamento?</summary><p data-i18n="faq.a8">Sim. O plano Pro inclui API/Webhook básico para conectar com seu PDV ou ERP e somar pontos automaticamente.</p></details>
+      <details class="faq__item"><summary data-i18n="faq.q9">Funciona para negócios com clientes que falam outro idioma?</summary><p data-i18n="faq.a9">Sim. O app do cliente é multi-idioma: espanhol, inglês e português. Ideal para regiões turísticas.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="contact" id="contato">
+  <div class="container">
+    <div class="contact__inner">
+      <div class="eyebrow" data-i18n="eyebrow.contact">Vamos conversar?</div>
+      <h2 class="section-h" data-i18n="contact.title">Quer ver como fica para o seu negócio?</h2>
+      <p class="contact__sub" data-i18n="contact.sub">Entre em contato e combinamos uma demo personalizada para o seu ramo.</p>
+      <div class="contact__ctas">
+        <a class="btn-wa" href="https://wa.me/5493XXXXXXXXX" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span data-i18n="contact.whatsapp_label">Escrever pelo WhatsApp</span>
+        </a>
+        <a class="btn-ghost-white" href="mailto:contato@adoromeusclientes.com.br" data-i18n="contact.email_label">Enviar e-mail</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a class="nav__logo" href="/" style="color:#fff;margin-bottom:12px;display:inline-flex">
+          <span class="nav__logo-mark">A</span>Adoro Meus Clientes
+        </a>
+        <p class="footer__tagline" data-i18n="footer.tagline">Seu app de fidelização com sua marca.</p>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title" data-i18n="footer.links_title">Produto</div>
+        <a href="#como-funciona" data-i18n="footer.link_features">Como funciona</a>
+        <a href="#precos" data-i18n="footer.link_pricing">Planos</a>
+        <a href="#faq" data-i18n="footer.link_faq">Perguntas frequentes</a>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title" data-i18n="footer.legal_title">Legal</div>
+        <a href="/termos" data-i18n="footer.link_terms">Termos e condições</a>
+        <a href="/privacidade" data-i18n="footer.link_privacy">Política de privacidade</a>
+      </div>
+      <div class="footer__col">
+        <div class="footer__col-title" data-i18n="footer.contact_title">Contato</div>
+        <a href="mailto:contato@adoromeusclientes.com.br">contato@adoromeusclientes.com.br</a>
+        <div class="footer__langs"><a href="https://amomisclientes.com/" hreflang="es" lang="es">Español</a></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="y"></span> <span data-i18n="footer.brand">Adoro Meus Clientes — Pro Business One</span> — <span data-i18n="footer.rights">Todos os direitos reservados.</span></p>
+    </div>
+  </div>
+</footer>
+
+<!-- CHAT -->
+<div class="amo-chat" id="amo-chat-root">
+  <div class="amo-chat__backdrop" id="amo-chat-backdrop" hidden aria-hidden="true"></div>
+  <button type="button" class="amo-chat__fab" id="amo-chat-fab" aria-expanded="false" aria-controls="amo-chat-panel">
+    <span class="amo-chat__fab-pulse" aria-hidden="true"></span>
+    <svg class="amo-chat__fab-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3C7.03 3 3 6.58 3 11c0 2.13 1.07 4.07 2.82 5.5L4.5 20.5c-.12.35.22.68.56.56l3.65-1.22A9.9 9.9 0 0012 19c4.97 0 9-3.58 9-8s-4.03-8-9-8z" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/><path d="M8.5 11h.01M12 11h.01M15.5 11h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    <span class="amo-chat-sr-only" data-i18n="chat.open">Abrir chat de ajuda</span>
+  </button>
+  <div class="amo-chat__panel" id="amo-chat-panel" hidden role="dialog" aria-modal="true" aria-labelledby="amo-chat-title">
+    <div class="amo-chat__header">
+      <div class="amo-chat__heading">
+        <h2 id="amo-chat-title" data-i18n="chat.title">Como podemos ajudar?</h2>
+        <p class="amo-chat__subtitle" id="amo-chat-subtitle">Assistente Adoro Meus Clientes</p>
+      </div>
+      <div class="amo-chat__actions">
+        <button type="button" class="amo-chat__close" id="amo-chat-close" aria-label="Fechar">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+            <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="amo-chat__body">
+      <iframe class="amo-chat__iframe" id="amo-chat-iframe" title="Chat" sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-modals" hidden></iframe>
+      <div class="amo-chat__fallback" id="amo-chat-fallback"><strong data-i18n="chat.fallbackTitle">Chat em breve</strong><p style="margin:0"><span data-i18n="chat.fallbackBody">Enquanto isso, escreva pelo WhatsApp.</span></p></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+  window.addEventListener('scroll',function(){document.getElementById('nav').classList.toggle('scrolled',window.scrollY>10);});
+  var b=document.getElementById('nav-burger'),m=document.getElementById('nav-mobile');
+  b.addEventListener('click',function(){var o=m.hasAttribute('hidden');o?(m.removeAttribute('hidden'),b.setAttribute('aria-expanded','true')):(m.setAttribute('hidden',''),b.setAttribute('aria-expanded','false'));});
+  document.querySelectorAll('.nav__mobile a').forEach(function(a){a.addEventListener('click',function(){m.setAttribute('hidden','');b.setAttribute('aria-expanded','false');});});
+  document.querySelectorAll('.faq__item').forEach(function(item){item.addEventListener('toggle',function(){if(this.open)document.querySelectorAll('.faq__item').forEach(function(o){if(o!==item)o.removeAttribute('open');});});});
+</script>
+<script src="js/chat-config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/chat.js"></script>
+<script>amoI18n.init().then(function(){amoChat.init();}).catch(function(e){console.error(e);amoChat.init();});</script>
+<script>
+(function(){
+  // Imágenes por feature — reemplazá cada una con el screenshot correspondiente
+  // Orden: Sellos, Puntos, Notificaciones, QR, Mapa, Panel, Multiidioma, API
+  var featImgs=[
+    "/imagenes/puntos.jpg",               // ⭐ Puntos y premios
+    "/imagenes/feat_sellos.jpg",          // 🎫 Sellos digitales
+    "/imagenes/feat_notificaciones.jpg",  // 🔔 Notificaciones push
+    "/imagenes/feat_qr.jpg",              // 📲 QR desde tu celular
+    "/imagenes/feat_mapa.jpg",            // 📍 Mapa de sucursales
+    "/imagenes/feat_panel.jpg",           // 📊 Panel desde el celular
+    "/imagenes/feat_idioma.jpg",          // 🌍 Multiidioma
+    "/imagenes/feat_api.jpg"              // 🔌 API de integración
+  ];
+  var items=document.querySelectorAll(".feat-item");
+  var phoneImg=document.getElementById("feat-phone-img");
+  items.forEach(function(btn,i){
+    btn.addEventListener("click",function(){
+      items.forEach(function(b){b.classList.remove("active");});
+      btn.classList.add("active");
+      if(phoneImg && featImgs[i]){
+        phoneImg.setAttribute("href",featImgs[i]);
+      }
+    });
+  });
+})();
+</script>
+<div id="lightbox"><button id="lightbox-close" aria-label="Fechar">✕</button><img id="lightbox-img" src="" alt=""/></div>
+<script>
+(function(){
+  var lb=document.getElementById("lightbox"),img=document.getElementById("lightbox-img"),btn=document.getElementById("lightbox-close");
+  document.querySelectorAll("[data-lightbox]").forEach(function(el){
+    el.addEventListener("click",function(){
+      img.src=el.src; img.alt=el.alt;
+      lb.classList.add("active");
+      document.body.style.overflow="hidden";
+    });
+  });
+  function close(){lb.classList.remove("active");document.body.style.overflow="";}
+  btn.addEventListener("click",close);
+  lb.addEventListener("click",function(e){if(e.target===lb)close();});
+  document.addEventListener("keydown",function(e){if(e.key==="Escape")close();});
+})();
+</script>
+</body>
+</html>

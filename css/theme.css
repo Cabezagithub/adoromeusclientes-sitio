@@ -1,0 +1,14 @@
+/* Tema por país: Brasil (verde y amarillo).
+   Es el ÚNICO archivo de estilos que difiere del sitio en español. */
+:root{
+  --brand:#007A33;            /* botones, enlaces y títulos destacados */
+  --brand-dark:#00562A;       /* hover */
+  --brand-light:#F1FAEF;      /* fondos suaves */
+  --brand-rgb:0,122,51;       /* mismo color que --brand, para sombras y transparencias */
+  --brand-on-dark:#FFDF00;    /* texto de marca sobre fondos oscuros (amarillo) */
+  --accent:#FFDF00;           /* amarillo: números de paso, insignias, subrayado */
+  --accent-ink:#12290f;       /* texto sobre el acento */
+  --navy:#0b2a1a;             /* secciones oscuras y títulos */
+  --footer-bg:#062414;
+  --stripe:linear-gradient(90deg,#007A33 0 50%,#FFDF00 50% 100%);
+}
